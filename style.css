@@ -1,32 +1,41 @@
-/* CSS files add styling rules to your content */
-
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+body{
+    background-color: aliceblue;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
-h1 {
-  font-style: italic;
-  color: #373fff;
+.logo {
+    display: block;
+    padding: 5px;
 }
 
-ul {
-  display: flex;
-  justify-content: space-between;
-  list-style-type:none;
+.logo img {
+    width: 60px;
+    height: auto;
 }
 
-ul li a {
-  display: flex;
-  justify-content: flex-end;
-  text-decoration:none;
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: salmon;
 }
 
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
+nav .navbar{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
-th, td {
-  padding: 5px;
-  text-align: left;    
+
+.navbar li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.navbar li a:hover{
+    color: dimgray;
 }
