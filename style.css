@@ -1,0 +1,32 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type:none;
+}
+
+ul li a {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration:none;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
