@@ -1,0 +1,653 @@
+@font-face {
+    font-family: MoonBright;
+    src: url("fonts/moonbright/Moonbright Demo.ttf");
+}
+
+@font-face {
+    font-family: Arimo;
+    src: url("fonts/Arimo/Arimo-Bold.ttf");
+}
+
+@font-face {
+    font-family: FriendlySchoolmates;
+    src: url("fonts/friendly_schoolmates/Friendly-Schoolmates.otf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+    background-color: lavender;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    font-family: Arimo;
+    font-size: 22px;
+}
+
+/*--------------Home Page---------------*/
+
+
+/*Slideshow of Kate and her Work*/
+/*Things to do: Slideshow Animation*/
+.banner {
+    background-image:url(Images/index/index_photo1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 630px;
+}
+
+/*Navbar for Index Page*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+nav .navbar1, .nav2 .navbar2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+.navbar1 li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.navbar1 li a:hover, .navbar2 li a:hover {
+    color: #f28485;
+}
+
+.twitter img, .insta img{
+    width: 20px;
+}
+
+/*Ask Ms Debbie how to make ur icons hover*/
+.twitter img:hover, .insta img:hover {
+    color: gray;
+}
+
+/*---------Footer for Home Page----------*/
+footer{
+    display: flex;
+    width: 50%;
+    color: white;
+    font-size: 16px;
+    padding-top: 30%;
+    padding-left: 100px;
+}
+
+/*--------------About Page---------------*/
+
+/*Navbar for About Page, Works Page & Contact Page*/
+
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #8e7fe4;
+}
+
+.logo {
+    font-family: 'Caveat', cursive;
+    list-style-type: none;
+}
+
+.logo li a {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+}
+
+.logo li a:hover {
+    color: #f28485;
+}
+
+.navbar2 li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.navbar2 li a:hover {
+    color: #f28485;
+}
+
+/*Content for About Page*/
+
+.container {
+    width: 100%;
+}
+
+.about_parent1 {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    
+}
+
+.about_text1 {
+    color: white;
+    width: 50%;
+    padding: 50px;
+    height: 800px;
+}
+
+.about_text1 p {
+text-align: justify;
+}
+
+.about_image1 {
+    background-image: url("Images/about/about_image1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: lightskyblue;
+    width: 50%;
+    padding: 50px;
+    height: 800px;
+}
+
+.about-parent2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: auto;
+    text-align: justify;
+}
+
+.about_text2 {
+    background-color: white;
+    color: black;
+    width: 50%;
+    height: 900px;
+    padding: 50px;
+}
+
+.about_text3 {
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 900px;
+    padding: 60px;
+}
+
+.about_parent3 {
+    background-image: url(Images/about/about_image2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    background-color: lightskyblue;
+}
+
+.about_parent4 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+}
+
+.about_text4 {
+    color: white;
+    width: 50%;
+    height: 800px;
+    padding: 50px;
+}
+
+.about_text4 p {
+    text-align: justify;
+}
+
+.about_image4 {
+    background-image: url(Images/about/about_image3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 800px;
+    padding: 50px;
+}
+
+.about_parent5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+    background-color: white;
+}
+
+.onecol, .twocol {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.one {
+    background-image: url(Images/about/about_image4.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+}
+
+.two {
+    background-image: url(Images/about/about_image5.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+}
+
+.three {
+    background-image: url(Images/about/about_image6.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+}
+
+.four {
+    background-image: url(Images/about/about_image7.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+}
+
+.five {
+    background-image: url(Images/about/about_image8.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+}
+
+.six {
+    background-image: url(Images/about/about_image9.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+}
+
+.footer-about {
+    background-color: #8e7fe4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: black;
+    font-size: 18px;
+}
+
+.footer-links {
+    height: 20px;
+    padding: 20px;
+}
+
+/*Works Page*/
+
+.works-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+}
+
+.col1, .col2, .col3, .col4, .col5, .col6, .col7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.work1 {
+    background-image: url("Images/works/AllWorks/1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work2 {
+    background-image: url("Images/works/AllWorks/2.jpg");
+    background-size: cover;
+    background-position: right;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work3 {
+    background-image: url("Images/works/AllWorks/3.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work4 {
+    background-image: url("Images/works/AllWorks/4.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work5 {
+    background-image: url("Images/works/AllWorks/5.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work6 {
+    background-image: url("Images/works/AllWorks/6.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work7 {
+    background-image: url("Images/works/AllWorks/7.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work8 {
+    background-image: url("Images/works/AllWorks/8.png");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work9 {
+    background-image: url("Images/works/AllWorks/9.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work10 {
+    background-image: url("Images/works/AllWorks/10.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work11 {
+    background-image: url("Images/works/AllWorks/11.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work12 {
+    background-image: url("Images/works/AllWorks/12.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work13 {
+    background-image: url("Images/works/AllWorks/13.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work14 {
+    background-image: url("Images/works/AllWorks/14.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work15 {
+    background-image: url("Images/works/AllWorks/15.png");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work16 {
+    background-image: url("Images/works/AllWorks/16.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work17 {
+    background-image: url("Images/works/AllWorks/17.png");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work18 {
+    background-image: url("Images/works/AllWorks/18.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work19 {
+    background-image: url("Images/works/AllWorks/19.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work20 {
+    background-image: url("Images/works/AllWorks/20.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work21 {
+    background-image: url("Images/works/AllWorks/21.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work22 {
+    background-image: url("Images/works/AllWorks/22.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work23 {
+    background-image: url("Images/works/AllWorks/23.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work24 {
+    background-image: url("Images/works/AllWorks/24.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work25 {
+    background-image: url("Images/works/AllWorks/25.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work26 {
+    background-image: url("Images/works/AllWorks/26.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work27 {
+    background-image: url("Images/works/AllWorks/27.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.work28 {
+    background-image: url("Images/works/AllWorks/28.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    transition-property: all;
+    transition-duration: 0.5s;
+    opacity: 1;
+}
+
+.overlay:hover {
+    opacity: 0.5;
+}
+
+/*Contacts Page*/
+
+.hero {
+    background-image: url("Images/contacts/6.jpg");
+    background-position:center;
+    background-size:cover;
+    width: 100%;
+    height: 700px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 900px;
+    padding: 50px;
+    background-color: white;
+}
+
+.contact-image {
+    background-image: url(Images/index/index_photo5.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+    color: black;
+}
+
+input[type="username"] {
+    background-color: lavender;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+input[type="useremail"] {
+    background-color: lavender;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+textarea[form="usrform"] {
+    width: 100%;
+    height: 230px;
+    background-color:lavender;
+    padding: 20px;
+    border: none;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    width: 150px;
+    height: 40px;
+    background-color: #8e7fe4;
+    color: white;
+    font-family: Arimo;
+    border: none;
+}
+
+
