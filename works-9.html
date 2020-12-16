@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+<head>
+    <title>Don't Bore Them - Kate Moross</title>  
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js" defer></script>
+    
+    <!-- Caveat Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Arimo Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet"/>
+    
+    <!-- Lato Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    
+    <!-- Menu Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <!--   Changes Server Icon: Made with Favicon Generator   -->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.glitch.com/473ee194-8456-41ee-baa2-e80952924275%2Fapple-touch-icon.png?v=1608117843174/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.glitch.com/473ee194-8456-41ee-baa2-e80952924275%2Ffavicon-32x32.png?v=1608117845944/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.glitch.com/473ee194-8456-41ee-baa2-e80952924275%2Ffavicon-16x16.png?v=1608117844271/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+  
+</head>
+    
+<body onload="myFunction()" style="margin:0;">
+  
+  <div class="hand" id="loader">
+            
+        <img class="pinky" src="https://cdn.glitch.com/473ee194-8456-41ee-baa2-e80952924275%2Fpinky.svg?v=1608042171597">
+
+        <img class="ringfinger" src="https://cdn.glitch.com/473ee194-8456-41ee-baa2-e80952924275%2Fringfinger.svg?v=1608042163002">
+
+        <img class="middlefinger" src="https://cdn.glitch.com/473ee194-8456-41ee-baa2-e80952924275%2Fmiddlefinger.svg?v=1608042167267">
+
+        <img class="indexfinger" src="https://cdn.glitch.com/473ee194-8456-41ee-baa2-e80952924275%2Findexfinder.svg?v=1608042168931">
+
+        <img class="thumb" src="https://cdn.glitch.com/473ee194-8456-41ee-baa2-e80952924275%2Fthumb.svg?v=1608042164986">
+      
+    </div>
+    
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+  
+  <nav class="nav2" id="myNavId">
+      
+      <ul class="logo">
+        
+        <li>
+          
+          <b><a href="index.html">Kate Moross</a></b>
+          
+        </li>
+        
+      </ul>
+
+      <ul class="navbar2">
+        
+        <li class="navlinks">
+          
+          <a href="about.html">About</a>
+          
+        </li>
+
+        <li class="navlinks">
+          
+          <a href="works.html">Works</a>
+          
+        </li>
+
+        <li class="navlinks">
+          
+          <a href="contact.html">Contact</a>
+          
+        </li>
+        
+        <br>
+
+        
+        <li class="menu">
+          
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            
+            Menu
+            
+          </a>
+          
+        </li>
+        
+        <br>
+  
+      
+      </ul>
+      
+    </nav>
+  
+  <div class="work-parent">
+    
+    <div class="work-image">
+      <img src="https://cdn.glitch.com/473ee194-8456-41ee-baa2-e80952924275%2Fworks_8.jpg?v=1605613263442">
+    </div>
+    
+    <div class="work-text">
+      
+      <h1>
+        Don't Bore Them, 2011
+        
+      </h1>
+      
+      <br>
+      
+      <p>
+        Moross collaborated with Nokie to craft an illustration for their poster series.
+      </p>
+      
+    </div>
+      
+  </div>
+  
+  <div class="footer-about">
+    
+    <div class="footer-p">
+      
+      <p class="footer-p">Copyright @ Kate Moross</p>
+      
+    </div>
+
+    <div class="footer-links">
+      
+      <a class="twitter" href="https://twitter.com/katemoross" target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+
+      <a class="insta" href="https://www.instagram.com/katemoross/" target="_blank">
+        <i class="fa fa-instagram"></i>
+      </a>
+      
+    </div>
+  
+</div>
+  
+<script>
+    function myFunction() {
+        var x = document.getElementById("myNavId");
+        if (x.className === "nav2") {
+            x.className += " responsive";
+        } else {
+            x.className = "nav2";
+        }
+    }
+</script> 
+      
+        <script>
+
+            var myVar;
+
+              function myFunction() {
+                myVar = setTimeout(showPage, 3000);
+              }
+
+              function showPage() {
+                document.getElementById("loader").style.display = "none";
+                document.getElementById("myDiv").style.display = "block";
+              }
+      
+      </script>
+      
+  </div>
+  
+</body>
+  
+</html>
